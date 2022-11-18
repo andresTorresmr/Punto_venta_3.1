@@ -121,10 +121,13 @@ namespace Punto_venta
                 sandia = Convert.ToDouble(txtSandia.Text);
             }
 
-            
-            
-            
-            
+            if (txtLimon.Text.Length > 0)
+            {
+                limon = Convert.ToDouble(txtLimon.Text);
+            }
+
+
+
 
             total = huevo + aguacate + limon + manzana + platano + sandia;
             
